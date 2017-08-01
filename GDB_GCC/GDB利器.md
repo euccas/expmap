@@ -1,33 +1,42 @@
 # GDB利器
 
-*Initial Date: 2009-9-25*
+* Created since: 2009-9-25 *
 
 
 gdb是GNU的调试工具（GNU Debugger）。
 
 ## GDB的特点
-具有交互性
-工作在字符模式
-X windows下的xxgdb具有前端图形界面
+- 具有交互性
+- 工作在字符模式
+- X windows下的xxgdb具有前端图形界面
 
 ## GDB可以做的事情
-设置断点（语句、函数、breakpoint, watchpoint等）
-监视程序变量的值（print）
-程序的单步执行（next, until-循环）
-修改变量的值（set）
+- 设置断点（语句、函数、breakpoint, watchpoint等）
+- 监视程序变量的值（print）
+- 程序的单步执行（next, until-循环）
+- 修改变量的值（set）
 
 ## 使用GDB
-要使用gdb调试程序，必须在编译时加入gdb信息，方法是使用g++/gcc的-g选项，对源文件进行编译。
-makefile定义：CFLAGS=-g
+- 要使用gdb调试程序，必须在编译时加入gdb信息，方法是使用g++/gcc的-g选项，对源文件进行编译。
+- makefile定义：CFLAGS=-g
 
 ### 启动gdb调试一个程序
+
+```
 gdb myprogram
+```
 
 ### 查看gdb所有的命令
+
+```
 gdb help
+```
 
 ### 查看某类命令的详细清单
+
+```
 gdb help 分类名
+```
 
 ### gdb命令的分类
 - aliases: 命令别名
@@ -43,13 +52,25 @@ gdb help 分类名
 ## GDB常用命令
 
 ### 开始调试
+```
 gdb [ exe name ]
-或gdb
+```
+
+或
+
+```
+gdb
 file [ exe name ] ：装载指定的可执行文件进行调试
+```
+
 run ：开始执行
+
 run [arg1] [arg2] [arg3] ：输入命令行参数，一次输入后，本次gdb中如果重新run，仍保留第一次输入的命令行参数
+
 set args ：修改发送给程序的参数
+
 show args ：查看命令缺省参数的列表
+
 quit : 退出gdb
 
 ### 断点break
