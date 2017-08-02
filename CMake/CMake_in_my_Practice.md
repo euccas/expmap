@@ -1,5 +1,8 @@
 # CMake in My Practice
 
+*Created since: 2014-8-22*
+*by Euccas*
+
 ## CMake特点
 1. open source
 2. 跨平台，并可生成native编译配置文件，在Linux/Unix平台，生成makefile，在MacOS平台，可以生成xcode，在Windows平台，可以生成MSVC的工程文件。

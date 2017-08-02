@@ -1,7 +1,7 @@
 # GDB利器
 
-* Created since: 2009-9-25 *
-
+*Created since: 2009-9-25*
+*by Euccas*
 
 gdb是GNU的调试工具（GNU Debugger）。
 
