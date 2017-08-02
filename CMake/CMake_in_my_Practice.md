@@ -105,6 +105,8 @@ Example: use CMake commands
 ADD_COMPILE_OPTIONS(-O3 -s -DNDEBUG)
 ```
 
+or
+
 ```
 ADD_COMPILE_OPTIONS(-O3 -s)
 ADD_DEFINITIONS(-DNDEBUG)
@@ -117,4 +119,6 @@ C_FLAGS =  -O3 -s
 C_DEFINES =  -DNDEBUG
 ```
 
+References:
+- [Difference between add-compile-options and set CMAKE-CXX-FLAGS](https://stackoverflow.com/questions/39501481/difference-between-add-compile-options-and-setcmake-cxx-flags)
 
