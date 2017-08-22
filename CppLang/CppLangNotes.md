@@ -1,4 +1,12 @@
-# unsigned int
+# Cpp Notes 
+
+## Contents
+
+* unsigned int types 
+
+## unsigned int types
+
+### unsigned int
 
 ```unsigned int``` is an unsigned integer and the compiler decides its bits. The C++ standard requires the minimum range is 0-65535, which is uint16.
 
@@ -6,7 +14,7 @@ Like ```int```, ```unsigned int``` typically is an integer that is fast to manip
 
 ```unsigned``` and ```unsigned int``` are synonymous.
 
-# uint{bit}_t
+### uint{bit}_t
 
 The uint{bit}_t types are used when you need an exact-width ingeter, such as writing to hardware registers.
 
