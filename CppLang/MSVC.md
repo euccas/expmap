@@ -1,5 +1,7 @@
 # MSVC: Microsoft Visual C++
 
+Created since: 2017-1-26 by Euccas
+
 ## Contents
 
 * Which files need be committed to version control in a MSVC project?

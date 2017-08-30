@@ -1,4 +1,6 @@
-# Cpp Notes 
+# C++ Notes 
+
+Created since: 2017-7-24 by Euccas
 
 ## Contents
 

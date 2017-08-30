@@ -1,4 +1,6 @@
-# Linux Command
+# Linux Commands
+
+Created since: 2017-8-6 by Euccas
 
 ## System Info
 
