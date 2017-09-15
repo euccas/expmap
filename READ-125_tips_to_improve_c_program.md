@@ -1,7 +1,9 @@
 
 # About
 
-This is the notes I took when reading the book "125 Tips to Improve Your C Program". The notes are written in Chinese 中文.
+This is the notes I took when reading the book "125 Tips to Improve Your C Program". 
+
+The notes are written in Chinese 中文.
 
 # Chapter 1: Data Types 数据类型
 
