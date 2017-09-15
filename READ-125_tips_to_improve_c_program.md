@@ -5,7 +5,7 @@ This is the notes I took when reading the book "125 Tips to Improve Your C Progr
 
 # Chapter 1: Data Types 数据类型
 
-## char 类型变量的值应该限制在signed char与unsigned char的交集范围内
+## 2-1: char 类型变量的值应该限制在signed char与unsigned char的交集范围内
 
 默认的char类型可以是signed char类型（取值范围 -127 ~ 127），也可以是unsigned char类型（取值范围 0 ~ 255），具体取决于编译器。为了使程序保持良好的可移植性，我们所声明的char类型变量的值应该限制在signed char与unsigned char的交集范围内，也就是 0 ~ 127. 例如，ASCII字符集中的字符都在这个范围内。
 
